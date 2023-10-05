@@ -7,9 +7,9 @@
 #include <iostream>
 using namespace std;
 int main() {
-	double x;  // вхідний аргумент
-	double y;  // вхідний параметр
-	double R;
+	double x; // вхідний аргумент
+	double y; // вхідний параметр
+	double R; // вхідний параметр
 	cout << "x="; cin >> x; cout << "y="; cin >> y; cout << "R="; cin >> R;
 	// розгалуження в повній формі
 	if ((y>= 0 && y <= R && x <= 0 && x >= -R && (x + R)*(x + R) + (y - R)*(y - R) >= R*R) || (x >= 0 && x <= R && y <= 0 && y >= -R && (x - R)*(x - R) + (y + R)*(y + R) >= R*R))
